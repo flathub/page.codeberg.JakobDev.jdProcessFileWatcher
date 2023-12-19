@@ -35,9 +35,9 @@ modules:
         url: https://strace.io/files/6.6/strace-6.6.tar.xz
         sha256: 421b4186c06b705163e64dc85f271ebdcf67660af8667283147d5e859fc8a96c
         x-checker-data:
-            type: anitya
-            project-id: 4897
-            url-template: https://strace.io/files/$version/strace-$version.tar.xz
+          type: anitya
+          project-id: 4897
+          url-template: https://strace.io/files/$version/strace-$version.tar.xz
 
   - name: python3-desktop-entry-lib
     buildsystem: simple
@@ -46,8 +46,8 @@ modules:
         --prefix=${FLATPAK_DEST} "desktop-entry-lib" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/dc/b0/baf6a47a445aa7b343cf5aa23a41a2d88e486d51dbf8771607d6bfecf1e5/desktop_entry_lib-4.0-py3-none-any.whl
-        sha256: 83269358bd850313c8e0c8d154b8f0e4240f23cf0096fa28e9126c370719f794
+        url: https://files.pythonhosted.org/packages/ca/2c/ec04489884bd41970c3c89b118ebd070ca14d6bd1043227ed6cc3d442578/desktop_entry_lib-4.1-py3-none-any.whl
+        sha256: 669ef15383214b0f7bfba638d1ae9875d9a46c8ff7fb7f9124bf31b141c889bb
         x-checker-data:
           name: desktop_entry_lib
           packagetype: bdist_wheel
