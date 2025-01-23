@@ -32,8 +32,8 @@ modules:
       - --disable-mpers
     sources:
       - type: archive
-        url: https://strace.io/files/6.12/strace-6.12.tar.xz
-        sha256: c47da93be45b6055f4dc741d7f20efaf50ca10160a5b100c109b294fd9c0bdfe
+        url: https://strace.io/files/6.13/strace-6.13.tar.xz
+        sha256: e209daf0ee038ca5adcc4c277e9273b4d51f46a2ff86da575d36742ac3508a17
         x-checker-data:
           type: anitya
           project-id: 4897
