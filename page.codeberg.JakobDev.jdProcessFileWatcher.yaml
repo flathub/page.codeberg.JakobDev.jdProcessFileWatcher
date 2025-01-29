@@ -60,8 +60,8 @@ modules:
       - python ./install-unix-datafiles.py --prefix=$FLATPAK_DEST
     sources:
       - type: archive
-        url: https://codeberg.org/JakobDev/jdProcessFileWatcher/archive/1.1.tar.gz
-        sha256: cd0a531cdbd756008456b9e03f438260dd8d203aec2bb8dc818224c84bd336e5
+        url: https://codeberg.org/JakobDev/jdProcessFileWatcher/archive/2.0.tar.gz
+        sha256: cdf7fb49b35f2ec308dc0e4817d9861e70c6740b6e159706601cf4fe5c559f8e
         x-checker-data:
           type: json
           url: https://codeberg.org/api/v1/repos/JakobDev/jdProcessFileWatcher/releases/latest
