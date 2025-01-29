@@ -26,6 +26,18 @@ finish-args:
   - --share=ipc
 
 modules:
+  - name: flatpak-host-launch
+    buildsystem: meson
+    sources:
+      - type: archive
+        url: https://codeberg.org/JakobDev/flatpak-host-launch/archive/1.1.tar.gz
+        sha256: e648109ba3b91fcd5297d5f414ef70a596605f1b59e55e47fa8cd0c298e77dde
+        x-checker-data:
+          type: json
+          url: https://codeberg.org/api/v1/repos/JakobDev/flatpak-host-launch/releases/latest
+          version-query: .tag_name
+          url-query: .tarball_url
+
   - name: strace
     buildsystem: autotools
     config-opts:
@@ -60,8 +72,8 @@ modules:
       - python ./install-unix-datafiles.py --prefix=$FLATPAK_DEST
     sources:
       - type: archive
-        url: https://codeberg.org/JakobDev/jdProcessFileWatcher/archive/1.1.tar.gz
-        sha256: cd0a531cdbd756008456b9e03f438260dd8d203aec2bb8dc818224c84bd336e5
+        url: https://codeberg.org/JakobDev/jdProcessFileWatcher/archive/2.0.tar.gz
+        sha256: cdf7fb49b35f2ec308dc0e4817d9861e70c6740b6e159706601cf4fe5c559f8e
         x-checker-data:
           type: json
           url: https://codeberg.org/api/v1/repos/JakobDev/jdProcessFileWatcher/releases/latest
