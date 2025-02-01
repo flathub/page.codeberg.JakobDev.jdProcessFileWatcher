@@ -20,6 +20,7 @@ finish-args:
   - --talk-name=org.freedesktop.Flatpak
   - --filesystem=/var/lib/flatpak/app:ro
   - --filesystem=host-etc:ro
+  - --filesystem=host-os:ro
   - --socket=fallback-x11
   - --socket=wayland
   - --device=dri
