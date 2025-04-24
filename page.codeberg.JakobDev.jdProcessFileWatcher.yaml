@@ -31,8 +31,8 @@ modules:
     buildsystem: meson
     sources:
       - type: archive
-        url: https://codeberg.org/JakobDev/flatpak-host-launch/archive/1.1.tar.gz
-        sha256: e648109ba3b91fcd5297d5f414ef70a596605f1b59e55e47fa8cd0c298e77dde
+        url: https://codeberg.org/JakobDev/flatpak-host-launch/archive/1.2.tar.gz
+        sha256: bd4b1861b68f544c0176ec6808280c1e302e32fbeeb1830fd1312239d5321c1a
         x-checker-data:
           type: json
           url: https://codeberg.org/api/v1/repos/JakobDev/flatpak-host-launch/releases/latest
